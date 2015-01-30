@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.wildkingdom.GrizzlyBearFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        tools:context="com.example.agustinmadina.wildkingdom.BrownBearFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_GrizzlyBear"
+            android:id="@+id/textViewAnimalTitle"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="221dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageViewAnimal"
+            android:layout_gravity="center"
+            android:src="@drawable/grizzlybear" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_habitat"
+            android:id="@+id/textViewHabitat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewHabitatFull"
+            android:layout_weight="0.23"
+            android:text="Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_description"
+            android:id="@+id/textViewDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewDescriptionFull"
+            android:layout_weight="0.29"
+            android:text="This bear derives it’s name from it’s coloration: the silver-tipped hair gives the animal a &quot;grizzled&quot; appearanc" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonNext"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/next_btn"
+            android:background="@null" />
+    </LinearLayout>
+</FrameLayout>

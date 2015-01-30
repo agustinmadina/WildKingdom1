@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.wildkingdom.GeckoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        tools:context="com.example.agustinmadina.wildkingdom.BrownBearFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_gecko"
+            android:id="@+id/textViewAnimalTitle"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="176dp"
+            android:layout_height="168dp"
+            android:id="@+id/imageViewAnimal"
+            android:layout_gravity="center"
+            android:src="@drawable/gecko" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_habitat"
+            android:id="@+id/textViewHabitat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewHabitatFull"
+            android:layout_weight="0.29"
+            android:singleLine="true"
+            android:text="Geckos are found in a wide variety of habitats in the warmer parts of the world including rocky deserts, mountains, jungles, rainforests" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_description"
+            android:id="@+id/textViewDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewDescriptionFull"
+            android:layout_weight="0.29"
+            android:text="Geckos are well known for their amazing ability to walk up vertical surfaces even those as smooth as glass" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonNext"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/next_btn"
+            android:background="@null" />
+    </LinearLayout>
+</FrameLayout>

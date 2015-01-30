@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.wildkingdom.BrownBearFragment"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_brownbear"
+        android:id="@+id/textViewTitle"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="139dp"
+        android:id="@+id/imageViewAnimal"
+        android:layout_gravity="center"
+        android:src="@drawable/brownbear" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_habitat"
+        android:id="@+id/textViewHabitat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewHabitatFull"
+        android:layout_weight="0.05"
+        android:text="Brown bears can be found in many habitats, from the fringes of deserts to high mountain forests and ice fields." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_description"
+        android:id="@+id/textViewDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewDescriptionFull"
+        android:layout_weight="0.29"
+        android:text="The Bear is a well-known animal. It is a big animal with either lighter or darker brown fur. Tail is short and not well seen among its fur" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonNext"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/next_btn"
+        android:background="@null" />
+
+</LinearLayout>

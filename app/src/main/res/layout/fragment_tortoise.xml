@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.wildkingdom.TortoiseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        tools:context="com.example.agustinmadina.wildkingdom.BrownBearFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_tortoise"
+            android:id="@+id/textViewAnimalTitle"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="118dp"
+            android:id="@+id/imageViewAnimal"
+            android:layout_gravity="center"
+            android:src="@drawable/tortoise"
+            android:layout_weight="0.18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_habitat"
+            android:id="@+id/textViewHabitat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewHabitatFull"
+            android:layout_weight="0.23"
+            android:text="Most desert tortoises live in creosote bush scrub habitat at elevations ranging from 1,000 to 3,000 feet above sea level" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_description"
+            android:id="@+id/textViewDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewDescriptionFull"
+            android:layout_weight="0.10"
+            android:text="Its powerful limbs are equipped with claws to dig its underground burrows, and its front limbs are protected with a covering of thick scales." />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonNext"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/next_btn"
+            android:background="@null" />
+    </LinearLayout>
+</FrameLayout>

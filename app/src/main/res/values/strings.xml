@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wild Kingdom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_view_brownbear">Brown Bear</string>
+    <string name="text_view_habitat">Habitat</string>
+    <string name="text_view_description">Description</string>
+    <string name="text_view_CoralSnake">Coral Snake</string>
+    <string name="text_view_gecko">Gecko</string>
+    <string name="text_view_tortoise">Tortoise</string>
+    <string name="text_view_GrizzlyBear">Grizzly Bear</string>
+    <string name="text_view_wombat">Wombat</string>
+
+</resources>

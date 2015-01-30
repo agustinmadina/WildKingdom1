@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.wildkingdom.WombatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        tools:context="com.example.agustinmadina.wildkingdom.BrownBearFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/LinearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_wombat"
+            android:id="@+id/textViewAnimalTitle"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="223dp"
+            android:layout_height="147dp"
+            android:id="@+id/imageViewAnimal"
+            android:src="@drawable/wombat"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_habitat"
+            android:id="@+id/textViewHabitat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewHabitatFull"
+            android:layout_weight="0.08"
+            android:text=" They are adaptable in habitat tolerance, and are found in forested, mountainous, and heathland areas of south-eastern Australia, including Tasmania" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_description"
+            android:id="@+id/textViewDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewDescriptionFull"
+            android:layout_weight="0.10"
+            android:text="Large, pudgy mammal is a marsupial, or pouched animal, found in Australia and on scattered islands nearby" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonNext"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/next_btn"
+            android:background="@null" />
+    </LinearLayout>
+
+</FrameLayout>
